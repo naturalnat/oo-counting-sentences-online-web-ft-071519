@@ -2,9 +2,12 @@ require 'pry'
 
 class String
 
-  def sentence?(string)
-  new_string = string.split(".")
-  new_string
+  def sentence?(line)
+  if line[-1] = "." 
+    return true
+  else
+    return false
+  end    
   end
 
   def question?
