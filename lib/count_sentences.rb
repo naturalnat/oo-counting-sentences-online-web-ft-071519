@@ -20,7 +20,6 @@ attr_reader :string
   end
 
   def count_sentences
-    new_array = self.split(".").count
-    new_array
+  self.split(".").count
   end
 end
