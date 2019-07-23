@@ -2,7 +2,7 @@ require 'pry'
 
 class String
 
-  def sentence?(line)
+  def sentence?
   end
 
   def question?
