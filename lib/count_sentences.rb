@@ -21,7 +21,7 @@ attr_reader :string
 
   def count_sentences
     new_array = self.split(".").count
-    new_array << self.split("!")
+    new_array.push.self.split("!")
     new_array << self.split("?")
     new_array.delete(nil)
   end
