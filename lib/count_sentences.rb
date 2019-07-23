@@ -26,6 +26,5 @@ attr_reader :string
     # new_split << self.split("?")
     # new_split.count
     self.split(".").count
-    self.contains?("!", ".", "?").count
   end
 end
