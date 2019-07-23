@@ -21,6 +21,5 @@ attr_reader :string
 
   def count_sentences
     self.split(".").count
-    binding.pry
   end
 end
