@@ -16,6 +16,7 @@ attr_reader :string
   end
 
   def exclamation?
+    self.end_with?("!")
 
   end
 
