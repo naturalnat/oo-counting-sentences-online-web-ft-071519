@@ -23,5 +23,7 @@ attr_reader :string
   counter = 0
   counter += self.split(". ").count
   counter += self.split("! ").count
+  counter += self.split("? ").count
+  counter
   end
 end
