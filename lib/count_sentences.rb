@@ -20,6 +20,6 @@ attr_reader :string
   end
 
   def count_sentences
-  self.split(". ", "! ", "?")
+  array = self.count(", ", "!", "?")
   end
 end
