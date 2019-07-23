@@ -21,9 +21,9 @@ attr_reader :string
 
   def count_sentences
   counter = 0
-  counter += self.split(".").count
-  counter += self.split("!").count
-  counter += self.split("?").count
+  counter += self.split(". ").count
+  counter += self.split("! ").count
+  counter += self.split("? ").count
   counter
   end
 end
