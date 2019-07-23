@@ -25,7 +25,7 @@ attr_reader :string
     # new_split << self.split("!")
     # new_split << self.split("?")
     # new_split.count
-    self.split(".", "!")
+    self.split(".")
 
   end
 end
