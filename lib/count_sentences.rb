@@ -22,4 +22,3 @@ attr_reader :string
   def count_sentences
   self.count(", ", "!", "?")
   end
-end
