@@ -23,6 +23,6 @@ attr_reader :string
     new_array = self.split(".").count
     new_array << self.split("!")
     new_array << self.split("?")
-    new_array.unshift(nil)
+    new_array.delete(nil)
   end
 end
