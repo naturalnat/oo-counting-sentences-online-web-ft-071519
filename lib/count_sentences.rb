@@ -23,3 +23,4 @@ attr_reader :string
     new_split = self.split(".", "!", "?")
     new_split.count
   end
+end
