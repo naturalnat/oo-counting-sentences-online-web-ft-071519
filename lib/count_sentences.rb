@@ -2,8 +2,9 @@ require 'pry'
 
 class String
 
-  def sentence?
-    
+  def sentence?(string)
+  new_string = string.split(".")
+  new_string
   end
 
   def question?
