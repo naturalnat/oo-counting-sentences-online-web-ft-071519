@@ -20,11 +20,6 @@ attr_reader :string
   end
 
   def count_sentences
-    # new_split = []
-    # new_split << self.split(".")
-    # new_split << self.split("!")
-    # new_split << self.split("?")
-    # new_split.count
     self.split(".").count
     binding.pry
   end
