@@ -3,8 +3,8 @@ require 'pry'
 class String
 attr_reader :string
 
-  def sentence?(string)
-    if @string.end_with?(".") == true
+  def sentence?
+    if self.end_with?(".") == true
       return true
     else
       return false
