@@ -1,7 +1,7 @@
 require 'pry'
 
 class String
-attr_accessor :string
+attr_reader :string
 
   def sentence?(string)
     if @string.end_with?(".") == true
